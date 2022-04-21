@@ -189,4 +189,21 @@ nav ul li a{
 .divinfo:hover{
     background-color: #EBCD6D;
 }
+.titulo{
+    text-align: center;
+    color: aquamarine;
+    animation-name: anime;
+    animation-duration: 2s;
+    animation-iteration-count: initial;
+    animation-delay: 1s;
+}
+@keyframes anime {
+    0%{
+        color: black;
+        font-size: 32px;
 
+    }
+    25%{
+        background-image: linear-gradient(to top,blue, gold);
+    }
+}
